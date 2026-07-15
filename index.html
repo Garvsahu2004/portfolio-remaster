@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garv Sahu — Front-End Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+ 
+<header>
+  <nav>
+    <div class="logo"><span class="dot"></span>GARV<span class="mono" style="color:var(--dim); font-weight:400; font-size:12px;">.SAHU</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <ul class="navlinks" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<main class="wrap">
+ 
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="reveal in">
+        <div class="eyebrow"><span class="line"></span><span class="label-tag">Front-end developer / Jhansi, IN</span></div>
+        <h1 class="hero-title">Garv Sahu<br>builds <span class="neon-text">interfaces</span><br>that behave.</h1>
+        <div class="typewriter-line">
+          <span class="typewriter" id="typewriter"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc">Currently sharpening backend fundamentals (Node.js, Express, databases) to take projects from front-end demos to full-stack products, while keeping one foot in Figma and Illustrator.</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+ 
+      <div class="frame spec-card reveal in">
+        <div class="spec-head">
+          <span class="label-tag">Spec Sheet</span>
+          <span class="mono" style="font-size:11px; color:var(--dim);">REV. 2026</span>
+        </div>
+        <div class="spec-row"><span class="k">ROLE</span><span class="v">Front-End Developer</span></div>
+        <div class="spec-row"><span class="k">FOCUS</span><span class="v">Interactive web tools</span></div>
+        <div class="spec-row"><span class="k">CORE STACK</span><span class="v">HTML · CSS · JS</span></div>
+        <div class="spec-row"><span class="k">LEARNING</span><span class="v">Node · Express · DBs</span></div>
+        <div class="spec-row"><span class="k">DESIGN</span><span class="v">Figma · Illustrator</span></div>
+        <div class="spec-row"><span class="k">STATUS</span><span class="v"><span class="status-dot"></span>Open to work</span></div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="about">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="line"></span><span class="label-tag">About</span></div>
+        <h2 class="section-title">From layout to logic.</h2>
+        <div class="about-text">
+          <p>I'm a front-end developer who likes projects small enough to ship in a weekend and useful enough to keep open in a tab. <strong>Calculators, timers, EMI tools, login flows</strong> — the everyday utilities that reward good UX far more than they reward flash.</p>
+          <p>Lately I've been pushing past the browser: learning <strong>Node.js, Express, and databases</strong> so the tools I build can hold state, talk to a server, and survive a page refresh. On the visual side, <strong>Figma, Photoshop, and Illustrator</strong> let me design the interface before I write a line of CSS for it.</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="legend">
+          <div class="legend-item">
+            <span class="legend-swatch ready"></span>
+            <div class="legend-text"><div class="t">HTML / CSS / JavaScript</div><div class="s">Daily driver — every project below runs on it</div></div>
+            <span class="legend-status">CORE</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-swatch learning"></span>
+            <div class="legend-text"><div class="t">Node.js / Express / Databases</div><div class="s">Building toward full-stack</div></div>
+            <span class="legend-status">IN PROGRESS</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-swatch ready"></span>
+            <div class="legend-text"><div class="t">Figma / Photoshop / Illustrator</div><div class="s">Design before development</div></div>
+            <span class="legend-status">CORE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span class="hi">HTML5</span><span>·</span><span>CSS3</span><span>·</span><span class="hi">JAVASCRIPT</span><span>·</span><span>NODE.JS</span><span>·</span><span class="hi">EXPRESS</span><span>·</span><span>FIGMA</span><span>·</span><span class="hi">ILLUSTRATOR</span><span>·</span><span>GIT</span><span>·</span>
+        <span class="hi">HTML5</span><span>·</span><span>CSS3</span><span>·</span><span class="hi">JAVASCRIPT</span><span>·</span><span>NODE.JS</span><span>·</span><span class="hi">EXPRESS</span><span>·</span><span>FIGMA</span><span>·</span><span class="hi">ILLUSTRATOR</span><span>·</span><span>GIT</span><span>·</span>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="projects">
+    <div class="eyebrow"><span class="line"></span><span class="label-tag">Selected Work</span></div>
+    <h2 class="section-title">Five small tools, shipped.</h2>
+ 
+    <div class="proj-grid" style="margin-top:40px;">
+ 
+      <div class="frame proj-card reveal">
+        <img class="proj-thumb" src="https://garvsahu2004.github.io/portfolio/portfolio.jpg" alt="Portfolio website preview" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-top"><span class="proj-title">Portfolio Website</span><span class="label-tag">01</span></div>
+          <p class="proj-desc">This site itself — a responsive, single-page portfolio built to introduce my work quickly and clearly.</p>
+          <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <div class="proj-links">
+            <a href="https://garvsahu2004.github.io/portfolio/" target="_blank" rel="noopener">↗ Live</a>
+            <a href="https://github.com/Garvsahu2004/portfolio" target="_blank" rel="noopener">⌥ Source</a>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="frame proj-card reveal">
+        <img class="proj-thumb" src="https://garvsahu2004.github.io/portfolio/calc.jpg" alt="Calculator app preview" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-top"><span class="proj-title">Calculator</span><span class="label-tag">02</span></div>
+          <p class="proj-desc">A clean, keyboard-friendly calculator with careful attention to operator precedence and edge cases.</p>
+          <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <div class="proj-links">
+            <a href="https://garvsahu2004.github.io/calculator/" target="_blank" rel="noopener">↗ Live</a>
+            <a href="https://github.com/Garvsahu2004/calculator" target="_blank" rel="noopener">⌥ Source</a>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="frame proj-card reveal">
+        <img class="proj-thumb" src="https://garvsahu2004.github.io/portfolio/emicalc.jpg" alt="EMI calculator preview" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-top"><span class="proj-title">EMI Calculator</span><span class="label-tag">03</span></div>
+          <p class="proj-desc">Computes loan EMIs instantly from principal, rate, and tenure — plain-language finance math, no spreadsheet required.</p>
+          <div class="tag-row"><span class="tag">JS</span><span class="tag">FORM UX</span></div>
+          <div class="proj-links">
+            <a href="https://garvsahu2004.github.io/emi-calculator/" target="_blank" rel="noopener">↗ Live</a>
+            <a href="https://github.com/Garvsahu2004/emi-calculator" target="_blank" rel="noopener">⌥ Source</a>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="frame proj-card reveal">
+        <img class="proj-thumb" src="https://garvsahu2004.github.io/portfolio/timm.jpg" alt="Timer app preview" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-top"><span class="proj-title">Timer</span><span class="label-tag">04</span></div>
+          <p class="proj-desc">A minimal countdown timer focused on legibility from across the room and zero-friction controls.</p>
+          <div class="tag-row"><span class="tag">JS</span><span class="tag">ANIMATION</span></div>
+          <div class="proj-links">
+            <a href="https://garvsahu2004.github.io/timer/" target="_blank" rel="noopener">↗ Live</a>
+            <a href="https://github.com/Garvsahu2004/timer" target="_blank" rel="noopener">⌥ Source</a>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="frame proj-card wide reveal">
+        <img class="proj-thumb" src="https://garvsahu2004.github.io/portfolio/login.jpg" alt="Brightness control and login demo preview" loading="lazy" style="aspect-ratio:21/6;">
+        <div class="proj-body">
+          <div>
+            <div class="proj-top"><span class="proj-title">Brightness Control / Login</span><span class="label-tag">05</span></div>
+            <p class="proj-desc">An interactive brightness slider paired with a login-page demo, exploring state changes and input validation in the UI.</p>
+            <div class="tag-row"><span class="tag">JS</span><span class="tag">UI STATE</span></div>
+          </div>
+          <div class="proj-links" style="align-items:flex-start; margin-top:14px;">
+            <a href="https://garvsahu2004.github.io/brightness/" target="_blank" rel="noopener">↗ Live</a>
+            <a href="https://github.com/Garvsahu2004/brightness" target="_blank" rel="noopener">⌥ Source</a>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <section id="contact">
+    <div class="eyebrow"><span class="line"></span><span class="label-tag">Contact</span></div>
+    <h2 class="section-title">Let's build something.</h2>
+ 
+    <div class="contact-grid" style="margin-top:40px;">
+      <form class="frame reveal" style="padding:26px 24px;" id="contactForm" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Garv Sahu">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="What are you looking to build?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message →</button>
+      </form>
+ 
+      <div class="frame contact-links reveal">
+        <a class="cl-item" href="mailto:Garvsahu567@gmail.com"><span>Email</span><span class="arrow mono">↗ Garvsahu567@gmail.com</span></a>
+        <a class="cl-item" href="https://github.com/Garvsahu2004" target="_blank" rel="noopener"><span>GitHub</span><span class="arrow mono">↗ @Garvsahu2004</span></a>
+        <a class="cl-item" href="#hero"><span>Back to top</span><span class="arrow mono">↑</span></a>
+        <p class="contact-note">Replace the placeholder email above with your real address — swap every "your.email@example.com".</p>
+      </div>
+    </div>
+  </section>
+ 
+</main>
+ 
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Garv Sahu. Built with HTML, CSS &amp; JS.</span>
+    <span class="mono">// neon rev — glow responsibly</span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
